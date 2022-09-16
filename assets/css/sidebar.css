@@ -1,0 +1,168 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  #entrar_card {
+    transition: background-color .25s ease-in-out;
+    -webkit-appearance: none;
+    position: absolute;
+    display: inline-block;
+    background: #8858ed;
+    color: #fff;
+    text-decoration: none;
+    /* border-radius: 35px; */
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.6em 5.5em;
+    bottom: 1rem;
+    right: 3rem;
+  }
+
+  #subtotal_cart {
+    display: flex;
+    position: absolute;
+    bottom: 4rem;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #subtotal_cart h2, p{
+    color: #f1f1f1;
+  }
+
+  #subtotal_cart p{
+    font-size: 26px;
+  }
+
+  div.conteudo_card {
+    position: relative;
+    left: 0;
+    right: 0;
+    max-height: 80%;
+    background-color: #f1f1f1;
+  }
+
+  h1 {
+    font-size: 20px;
+    color: #f1f1f1;
+  }
+
+  a#a-link {
+    color: #0090c5;
+    text-decoration: none;
+    }
+
+    a#a-link:hover {
+        text-decoration: none;
+    }
+
+    #nav ul li:hover a#a-link, #nav ul li:hover span {
+        background: none;
+    }
+
+    #Input_Number {
+        position: relative;
+        left: 4rem;
+        bottom: 4rem;
+        display: block;
+        overflow: hidden;
+        width: 100px;
+      }
+
+      #Input_Number > span {
+        top: 0;
+        border: 0;
+        right: 2px;
+        width: 28px;
+        height: 15px;
+
+        line-height: 1;
+        cursor: pointer;
+        position: absolute;
+        text-align: center;
+        background-color: #ddd;
+      }
+
+      #Input_Number > span.arrow-up {
+        top: 2px;
+      }
+
+      #Input_Number > span.arrow-down {
+        top: 18px;
+      }
+
+      #Input_Number > span > i.fas.fa-caret-up,
+      #Input_Number > span > i.fas.fa-caret-down {
+        color: #333;
+      }
+
+      #Input_Number input {
+        width: 100%;
+        height: 35px;
+        display: block;
+        font-size: 16px;
+        background-color: #fff;
+        border: 1px solid #bbb;
+      }
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }

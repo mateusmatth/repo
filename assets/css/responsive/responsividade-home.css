@@ -1,0 +1,374 @@
+@charset "UFT-8";
+
+@media  (min-width: 1672px) {
+    #abs-info {
+    position: relative;
+    top: -62rem;
+    }
+
+    #card-info {
+        position: relative;
+        border-radius: 30px;
+        width: 609px;
+        height: 400px;
+        left: 10%;
+        top: -11rem;
+        background-color: #8858ed;
+        box-shadow: rgb(6 5 6 / 41%) 4.23px 9.06px 14px 6px;
+        z-index: 1;
+    }
+
+    #card-info p {
+        color: #ffffff;
+        font-size: 22px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 1%;
+    }
+
+    .row {
+        margin-top: 1rem;
+        margin-left: -5%;
+    }
+}
+
+@media  (min-width: 1440px) {
+    #abs-info {
+    position: relative;
+    top: -62rem;
+    }
+
+    #card-info {
+        position: relative;
+        border-radius: 30px;
+        width: 609px;
+        height: 400px;
+        left: 10%;
+        background-color: #8858ed;
+        box-shadow: rgb(6 5 6 / 41%) 4.23px 9.06px 14px 6px;
+        z-index: 1;
+    }
+
+    #card-info p {
+        color: #ffffff;
+        font-size: 22px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 1%;
+    }
+
+    .row {
+        margin-top: 1rem;
+        margin-left: -5%;
+    }
+}
+
+@media (max-width: 1440px) and (max-height: 665px){
+    #abs-info {
+    position: relative;
+    top: -11rem;
+    left: -3rem;
+    }
+
+    #card-info {
+        position: relative;
+        border-radius: 30px;
+        width: 435px;
+        height: 365px;
+        left: 7%;
+        top: 4rem;
+        background-color: #8858ed;
+        box-shadow: rgb(6 5 6 / 41%) 4.23px 9.06px 14px 6px;
+        z-index: 1;
+    }
+
+    #card-info p {
+        color: #ffffff;
+        font-size: 22px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 1%;
+    }
+
+    #img-slide {
+        width: 350px;
+        height: 300px;
+    }
+
+    #img-slide > img{
+        width: 100%;
+    }
+
+    .row {
+        margin-top: -14rem;
+    }
+}
+
+@media (max-width: 864px){
+    #abs-info {
+    position: relative;
+    top: -8rem;
+    }
+
+    #card-info {
+        position: relative;
+        border-radius: 30px;
+        width: 335px;
+        height: 265px;
+        left: 7%;
+        top: 4rem;
+        background-color: #8858ed;
+        box-shadow: rgb(6 5 6 / 41%) 4.23px 9.06px 14px 6px;
+        z-index: 1;
+    }
+        #card-info h4 {
+            color: #f1f1f1;
+            font-size: 1.375rem;
+            line-height: 2.063rem;
+            text-align: start;
+            font-family: 'Roboto', sans-serif;
+        }
+            #card-info h2 {
+                color: #ffffff;
+                font-size: 1.375rem;
+                line-height: 4.375rem;
+                text-align: start;
+                font-family: 'Montserrat', sans-serif;
+            }
+                #card-info p {
+                    color: #ffffff;
+                    font-size: 15px;
+                    text-align: start;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                    a#produto-prin {
+                        color: #8858ed;
+                        text-decoration: none;
+                        position: relative;
+                        bottom: 30px;
+                        background-color: #fff;
+                        min-width: 132px;
+                        min-height: 44px;
+                        border-radius: 20px;
+                        padding: 5px;
+                    }
+                        #now-buy{
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 0.938rem;
+                            line-height: 1.313rem;
+                            text-align: start;
+                            font-weight: 700;
+                        }
+
+
+    #img-slide {
+        position: relative;
+        top: 1.8rem;
+        width: 250px;
+        height: 150px;
+    }
+
+    #img-slide > img{
+        width: 100%;
+    } */
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-top: -14rem;
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 736px){
+    div#img-rw {
+        position: relative;
+        background-image: url(../imagens/android-cyber.webp);
+        background-size: 221vw;
+        background-repeat: no-repeat;
+        margin-top: calc(-2% - 148px);
+        height: 121vh;
+    }
+    
+    #abs-info {
+    position: relative;
+    top: -13rem;
+    }
+
+    #card-info {
+        position: relative;
+        border-radius: 30px;
+        width: 335px;
+        height: 265px;
+        left: 7%;
+        top: 4rem;
+        background-color: #8858ed;
+        box-shadow: rgb(6 5 6 / 41%) 4.23px 9.06px 14px 6px;
+        z-index: 1;
+    }
+        #card-info h4 {
+            color: #f1f1f1;
+            font-size: 1.375rem;
+            line-height: 2.063rem;
+            text-align: start;
+            font-family: 'Roboto', sans-serif;
+        }
+            #card-info h2 {
+                color: #ffffff;
+                font-size: 1.375rem;
+                line-height: 4.375rem;
+                text-align: start;
+                font-family: 'Montserrat', sans-serif;
+            }
+                #card-info p {
+                    color: #ffffff;
+                    font-size: 15px;
+                    text-align: start;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                    a#produto-prin {
+                        color: #8858ed;
+                        text-decoration: none;
+                        position: relative;
+                        left: 75px;
+                        bottom: -15px;
+                        background-color: #fff;
+                        min-width: 132px;
+                        min-height: 44px;
+                        border-radius: 20px;
+                        padding: 6px;
+                    }
+                        #now-buy{
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 0.938rem;
+                            line-height: 1.313rem;
+                            text-align: start;
+                            font-weight: 700;
+                        }
+
+
+    #img-slide {
+        position: relative;
+        top: 1.8rem;
+        width: 220px;
+        height: 150px;
+    }
+
+    #img-slide > img{
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-top: -14rem;
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 520px){
+
+    #card-info {
+        position: relative;
+        border-radius: 30px;
+        width: 335px;
+        height: 265px;
+        left: 7%;
+        top: 4rem;
+        background-color: #8858ed;
+        box-shadow: rgb(6 5 6 / 41%) 4.23px 9.06px 14px 6px;
+        z-index: 1;
+    }
+        #card-info h4 {
+            color: #f1f1f1;
+            font-size: 1.375rem;
+            line-height: 2.063rem;
+            text-align: start;
+            font-family: 'Roboto', sans-serif;
+        }
+            #card-info h2 {
+                color: #ffffff;
+                font-size: 1.375rem;
+                line-height: 4.375rem;
+                text-align: start;
+                font-family: 'Montserrat', sans-serif;
+            }
+                #card-info p {
+                    color: #ffffff;
+                    font-size: 15px;
+                    text-align: start;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                    a#produto-prin {
+                        color: #8858ed;
+                        text-decoration: none;
+                        position: relative;
+                        left: 75px;
+                        bottom: -15px;
+                        background-color: #fff;
+                        min-width: 132px;
+                        min-height: 44px;
+                        border-radius: 20px;
+                        padding: 6px;
+                    }
+                        #now-buy{
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 0.938rem;
+                            line-height: 1.313rem;
+                            text-align: start;
+                            font-weight: 700;
+                        }
+
+
+    #img-slide {
+        position: relative;
+        top: 1.8rem;
+        width: 250px;
+        height: 150px;
+    }
+
+    #img-slide > img{
+        width: 100%;
+    }
+
+    #top-produ {
+        position: relative;
+        margin-top: -1%;
+    }
+
+    #top-produ > #position > #produtos {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        line-height: 58.8px;
+        text-align: start;
+        color: #f7f7f7;
+        position: relative;
+        left: 5%;
+        font-weight: 700;
+    }
+    #top-produ > #position > a > #buttom-produtos {
+        background-color: #f1f1f1;
+        color: #8858ed;
+        font-weight: 100;
+        position: relative;
+        margin-top: 16%;
+        margin-right: 1rem;
+        margin-bottom: 13%;
+        align-items: center;
+        justify-content: center;
+        padding: 5px !important;
+        width: 80px;
+        height: 26px;
+        right: 4%;
+        text-align: center;
+        font-size: 11px !important;
+    }
+}
